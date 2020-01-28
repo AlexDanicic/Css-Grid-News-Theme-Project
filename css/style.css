@@ -340,6 +340,16 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     #showcase .showcase-container {    
-        height: 80vh;
+        height: 70vh;
+    }
+
+}
+@media(min-height: 468px) {
+    #showcase {    
+        padding: 2rem;        
+    }
+
+    #showcase .showcase-container {    
+        height: 50vh;
     }
 }
