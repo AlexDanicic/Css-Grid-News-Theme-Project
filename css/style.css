@@ -333,3 +333,13 @@ h1, h2, h3, h4, h5, h6 {
 
 /* A B O U T */
 /* all inside utilities */
+
+@media(min-height: 300px) {
+    #showcase {    
+        padding: 1rem;        
+    }
+
+    #showcase .showcase-container {    
+        height: 80vh;
+    }
+}
